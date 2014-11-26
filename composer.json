@@ -1,0 +1,33 @@
+{
+	"name": "wolfsblvt/advancedsearchbox",
+	"type": "phpbb-extension",
+	"description": "This extension adds advanced functionalty to the searchbox in board header. Simplify the search process, make it available with a few clicks and easy to understand.",
+	"homepage": "http://pinkes-forum.de/dev/find.php?ext=advancedsearchbox",
+	"version": "1.0.2",
+	"time": "2014-11-23",
+	"keywords": ["phpbb", "extension", "search", "searchbox", "advanced"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Clemens Husung (Wolfsblvt)",
+			"homepage": "http://www.pinkes-forum.de/",
+			"email": "wolfsblvt@gmx.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"wolfsblvt/core": ">=1.0.0"
+	},
+	"extra": {
+		"display-name": "Advanced SearchBox",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0,<3.2.*@dev"
+		},
+		"version-check": {
+			"host": "pinkes-forum.de",
+			"directory": "/dev/advancedsearchbox",
+			"filename": "version.json"
+		}
+	}
+}

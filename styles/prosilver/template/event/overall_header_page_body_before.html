@@ -1,0 +1,29 @@
+<!-- INCLUDEJS js/functions.js -->
+<!-- INCLUDEJS js/onload.js -->
+
+<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+<div id="search_dropdown">
+	<div id="search_dropdown_link" title="{L_ASB_TOOLTIP_CHOOSE}">
+		{L_ASB_CHOOSE} &darr;
+	</div>
+	<ul id="search_dropdown_menu">
+		<li class="ui-widget-header">{L_ASB_SPECIFIC}</li>
+		<li id="LiN1" class="ui-widget-notclickable">{L_ASB_SEARCH_NONE}</li>
+		<li id="Li11"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_WORDS}">{L_ASB_SEARCH_THIS_TOPIC}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+		<li id="Li12"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_WORDS}">{L_ASB_SEARCH_THIS_FORUM}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+		<li class="ui-widget-header">{L_ASB_GLOBAL}</li>
+		<li id="Li21"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_WORDS}">{L_ASB_SEARCH_WHOLE}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+		<li id="Li22"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_WORDS}">{L_ASB_SEARCH_TITLE}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+		<li id="Li23"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_WORDS}">{L_ASB_SEARCH_FIRSTPOST}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+		<li id="Li24x">
+			<a href="javascript:void(0);">{L_ASB_SEARCH_AUTHOR}</a>
+			<ul>
+				<li id="Li24x1"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_NAME}">{L_ASB_SEARCH_TOPICS}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+				<li id="Li24x2"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_NAME}">{L_ASB_SEARCH_POSTS}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+				<li id="Li24x3"><a href="javascript:void(0);" title="{L_ASB_TOOLTIP_COMBINED}">{L_ASB_SEARCH_WORDS}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+			</ul>
+		</li>
+		<li id="Li25"><a href="javascript:void(0);">{L_ASB_SEARCH_MEMBERS}<img src="{T_EXT_ADVANCEDSEARCHBOX_THEME_PATH}/images/pin.png" title="{L_ASB_TOOLTIP_PIN}" alt="pin" style="float:right;" /></a></li>
+	</ul>
+</div>
+<!-- ENDIF -->

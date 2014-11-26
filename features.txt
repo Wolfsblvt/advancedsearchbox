@@ -1,0 +1,11 @@
+﻿Current Features
+****************
+	• Specify what you want to search without clicking the options in the Advanced Search
+	• Pin most used item
+	• Search current thread or forum
+	• Search for words from a specific user
+	• Box matching responsive style and search permission
+
+Planned Features
+****************
+	• Nothing

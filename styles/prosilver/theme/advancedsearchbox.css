@@ -1,0 +1,44 @@
+﻿/**
+ * wolfsblvt/advancedsearchbox
+ *
+ * advancedsearchbox.css
+ * http://www.pinkes-forum.de/
+ * Author: Clemens Husung (Wolfsblvt)
+ * 
+ */
+
+#search_dropdown {
+    position: absolute;
+    display: none;
+    z-index: 300;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+#search_dropdown_menu, #search_dropdown_menu ul {
+    display: none;
+    width: 160px;
+}
+
+#search_dropdown_menu .ui-widget-header, #search_dropdown_menu .ui-widget-notclickable {
+    padding: 3px 1em 3px .4em;
+}
+#search_dropdown_menu .ui-widget-notclickable {
+    font-style: italic;
+}
+#search_dropdown_menu span {
+    font-weight: bold;
+    font-size: 80%;
+}
+#search_dropdown_link {
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#search_button {
+    font-size: 10px;
+    padding: 3px 5px;
+}
+#search_dropdown_link span {
+    /* Fix the height of dropdown_link*/
+    padding: 1px 3px;
+}

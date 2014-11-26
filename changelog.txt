@@ -1,0 +1,20 @@
+﻿Actual Version
+**************
+
+-- Version 1.0.2 --------------
+	• Made whole highlighted box clickable, not just text
+
+
+###########################################################################
+Past Versions
+*************
+
+-- Version 1.0.1 --------------
+	• Changed some language variables
+	• Added tooltips to "Choose" and pins for better understanding
+	
+-- Version 1.0.0 --------------
+	• First implementation for 3.1
+	• Included check for requirements
+	• Moving strings to language files
+	• Workaround for missing template event

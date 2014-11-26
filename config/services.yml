@@ -1,0 +1,10 @@
+services:
+    wolfsblvt.advancedsearchbox.listener:
+        class: wolfsblvt\advancedsearchbox\event\listener
+        arguments:
+            - @path_helper
+            - @template
+            - @user
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
