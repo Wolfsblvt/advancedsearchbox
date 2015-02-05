@@ -1,7 +1,8 @@
 <?php
 /**
  * 
- * Advanced SearchBox [Deutsch]
+ * Advanced SearchBox [Swedish]
+ * Swedish translation by Holger (http://www.maskinisten.net)
  * 
  * @copyright (c) 2014 Wolfsblut ( www.pinkes-forum.de )
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
